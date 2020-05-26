@@ -19,6 +19,10 @@
 		D0084E7F247624A400C8D7CF /* Solution2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0084E7E247624A400C8D7CF /* Solution2.swift */; };
 		D0084E812476654200C8D7CF /* Solution15.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0084E802476654200C8D7CF /* Solution15.swift */; };
 		D0084E83247666E800C8D7CF /* Solution3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0084E82247666E800C8D7CF /* Solution3.swift */; };
+		D0084E8524768E1B00C8D7CF /* Solution9.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0084E8424768E1B00C8D7CF /* Solution9.swift */; };
+		D0084E8724778A4A00C8D7CF /* Solution5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0084E8624778A4A00C8D7CF /* Solution5.swift */; };
+		D0084E89247B75DE00C8D7CF /* Solution6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0084E88247B75DE00C8D7CF /* Solution6.swift */; };
+		D0084E8B247D138E00C8D7CF /* Solution8.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0084E8A247D138E00C8D7CF /* Solution8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		D0084E7E247624A400C8D7CF /* Solution2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2.swift; sourceTree = "<group>"; };
 		D0084E802476654200C8D7CF /* Solution15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution15.swift; sourceTree = "<group>"; };
 		D0084E82247666E800C8D7CF /* Solution3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3.swift; sourceTree = "<group>"; };
+		D0084E8424768E1B00C8D7CF /* Solution9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution9.swift; sourceTree = "<group>"; };
+		D0084E8624778A4A00C8D7CF /* Solution5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution5.swift; sourceTree = "<group>"; };
+		D0084E88247B75DE00C8D7CF /* Solution6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution6.swift; sourceTree = "<group>"; };
+		D0084E8A247D138E00C8D7CF /* Solution8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution8.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +125,11 @@
 				D0084E7C24761A0700C8D7CF /* Solution1.swift */,
 				D0084E7E247624A400C8D7CF /* Solution2.swift */,
 				D0084E82247666E800C8D7CF /* Solution3.swift */,
+				D0084E8624778A4A00C8D7CF /* Solution5.swift */,
+				D0084E88247B75DE00C8D7CF /* Solution6.swift */,
+				D0084E8424768E1B00C8D7CF /* Solution9.swift */,
 				D0084E802476654200C8D7CF /* Solution15.swift */,
+				D0084E8A247D138E00C8D7CF /* Solution8.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -271,13 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0084E8724778A4A00C8D7CF /* Solution5.swift in Sources */,
+				D0084E8524768E1B00C8D7CF /* Solution9.swift in Sources */,
 				D0084E7D24761A0700C8D7CF /* Solution1.swift in Sources */,
 				D0084E512473E3B000C8D7CF /* ViewController.swift in Sources */,
 				D0084E83247666E800C8D7CF /* Solution3.swift in Sources */,
 				D0084E7F247624A400C8D7CF /* Solution2.swift in Sources */,
 				D0084E4D2473E3B000C8D7CF /* AppDelegate.swift in Sources */,
 				D0084E812476654200C8D7CF /* Solution15.swift in Sources */,
+				D0084E8B247D138E00C8D7CF /* Solution8.swift in Sources */,
 				D0084E4F2473E3B000C8D7CF /* SceneDelegate.swift in Sources */,
+				D0084E89247B75DE00C8D7CF /* Solution6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
