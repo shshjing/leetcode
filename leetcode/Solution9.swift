@@ -29,7 +29,7 @@ import Foundation
  解释: 从右向左读, 为 01 。因此它不是一个回文数。
  
  */
-class Solution {
+class Solution9 {
     func isPalindrome(_ x: Int) -> Bool {
         if x < 0 {
             return false
