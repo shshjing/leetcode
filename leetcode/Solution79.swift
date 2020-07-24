@@ -17,19 +17,19 @@ class Solution79 {
         if word.count == 0 || board.count == 0 || board.count * board[0].count < word.count  {
             return false
         }
-        var wordC = [Character](word)
-        for i in 0 ..< board.count {
-            if board[i].contains(wordC[0]) {
-                for j in 0 ..< board[i].count {
-                    if board[i][j] == wordC[0] {
-                        var ii = i, jj = j, index = 1
-                        if <#condition#> {
-                            <#code#>
-                        }
-                    }
-                }
-            }
-        }
+//        var wordC = [Character](word)
+//        for i in 0 ..< board.count {
+//            if board[i].contains(wordC[0]) {
+//                for j in 0 ..< board[i].count {
+//                    if board[i][j] == wordC[0] {
+//                        var ii = i, jj = j, index = 1
+//                        if <#condition#> {
+//                            <#code#>
+//                        }
+//                    }
+//                }
+//            }
+//        }
         return false
     }
 }

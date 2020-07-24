@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B658CFE624CAED0F002B7878 /* Solution129.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658CFE524CAED0F002B7878 /* Solution129.swift */; };
+		B658CFE824CAED66002B7878 /* Solution108.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658CFE724CAED66002B7878 /* Solution108.swift */; };
+		B658CFEA24CAED89002B7878 /* Solution107.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658CFE924CAED89002B7878 /* Solution107.swift */; };
+		B658CFEC24CAEDAD002B7878 /* Solution106.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658CFEB24CAEDAD002B7878 /* Solution106.swift */; };
+		B658CFEE24CAEDC5002B7878 /* Solution105.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658CFED24CAEDC5002B7878 /* Solution105.swift */; };
+		B658CFF024CAEDDD002B7878 /* Solution104.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658CFEF24CAEDDD002B7878 /* Solution104.swift */; };
+		B658CFF224CAEDF1002B7878 /* Solution103.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658CFF124CAEDF1002B7878 /* Solution103.swift */; };
+		B658CFF424CAEE07002B7878 /* Solution102.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658CFF324CAEE07002B7878 /* Solution102.swift */; };
 		D0084E4D2473E3B000C8D7CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0084E4C2473E3B000C8D7CF /* AppDelegate.swift */; };
 		D0084E4F2473E3B000C8D7CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0084E4E2473E3B000C8D7CF /* SceneDelegate.swift */; };
 		D0084E512473E3B000C8D7CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0084E502473E3B000C8D7CF /* ViewController.swift */; };
@@ -101,6 +109,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B658CFE524CAED0F002B7878 /* Solution129.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution129.swift; sourceTree = "<group>"; };
+		B658CFE724CAED66002B7878 /* Solution108.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution108.swift; sourceTree = "<group>"; };
+		B658CFE924CAED89002B7878 /* Solution107.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution107.swift; sourceTree = "<group>"; };
+		B658CFEB24CAEDAD002B7878 /* Solution106.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution106.swift; sourceTree = "<group>"; };
+		B658CFED24CAEDC5002B7878 /* Solution105.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution105.swift; sourceTree = "<group>"; };
+		B658CFEF24CAEDDD002B7878 /* Solution104.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution104.swift; sourceTree = "<group>"; };
+		B658CFF124CAEDF1002B7878 /* Solution103.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution103.swift; sourceTree = "<group>"; };
+		B658CFF324CAEE07002B7878 /* Solution102.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution102.swift; sourceTree = "<group>"; };
 		D0084E492473E3B000C8D7CF /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0084E4C2473E3B000C8D7CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0084E4E2473E3B000C8D7CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -299,6 +315,14 @@
 				D00B16FD24BBFF6300675C1B /* Solution94.swift */,
 				D00B171924BC08E000675C1B /* Solution95.swift */,
 				D0C0DF3A24A87B3800CB2938 /* Solution101.swift */,
+				B658CFF324CAEE07002B7878 /* Solution102.swift */,
+				B658CFF124CAEDF1002B7878 /* Solution103.swift */,
+				B658CFEF24CAEDDD002B7878 /* Solution104.swift */,
+				B658CFED24CAEDC5002B7878 /* Solution105.swift */,
+				B658CFEB24CAEDAD002B7878 /* Solution106.swift */,
+				B658CFE924CAED89002B7878 /* Solution107.swift */,
+				B658CFE724CAED66002B7878 /* Solution108.swift */,
+				B658CFE524CAED0F002B7878 /* Solution129.swift */,
 				D0C0DF3624A87AC300CB2938 /* Solution121.swift */,
 				D02D8B1C247F964600515DDC /* Solution165.swift */,
 				D02D8B1A247F6E9400515DDC /* Solution179.swift */,
@@ -466,17 +490,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0084E8724778A4A00C8D7CF /* Solution5.swift in Sources */,
+				B658CFEA24CAED89002B7878 /* Solution107.swift in Sources */,
 				D0316C8F24ADC81C00E7C0B5 /* Solution64.swift in Sources */,
 				D0316C9124ADC84700E7C0B5 /* Solution71.swift in Sources */,
 				D0316C9524AF1DE200E7C0B5 /* Solution74.swift in Sources */,
+				B658CFE824CAED66002B7878 /* Solution108.swift in Sources */,
 				D0C0DF3724A87AC300CB2938 /* Solution121.swift in Sources */,
+				B658CFEC24CAEDAD002B7878 /* Solution106.swift in Sources */,
 				D023173A24B44B6A006C92A0 /* Solution58.swift in Sources */,
 				D0C0DF2E24A879EC00CB2938 /* Solution54.swift in Sources */,
+				B658CFF024CAEDDD002B7878 /* Solution104.swift in Sources */,
 				D0C0DF3524A879EC00CB2938 /* Solution55.swift in Sources */,
 				D00B170824BC000300675C1B /* Solution67.swift in Sources */,
 				D0084E8D247E40C200C8D7CF /* Solution14.swift in Sources */,
 				D0084E8524768E1B00C8D7CF /* Solution9.swift in Sources */,
 				D0084E7D24761A0700C8D7CF /* Solution1.swift in Sources */,
+				B658CFF424CAEE07002B7878 /* Solution102.swift in Sources */,
 				D0C0DF1324A86C9B00CB2938 /* Solution17.swift in Sources */,
 				D0C0DF1124A86B6F00CB2938 /* Solution11.swift in Sources */,
 				D00B16FE24BBFF6300675C1B /* Solution94.swift in Sources */,
@@ -503,7 +532,9 @@
 				D00B16F824BBFEA100675C1B /* Solution83.swift in Sources */,
 				D0C0DF3224A879EC00CB2938 /* Solution48.swift in Sources */,
 				D00B170C24BC002500675C1B /* Solution70.swift in Sources */,
+				B658CFEE24CAEDC5002B7878 /* Solution105.swift in Sources */,
 				D0084E4D2473E3B000C8D7CF /* AppDelegate.swift in Sources */,
+				B658CFE624CAED0F002B7878 /* Solution129.swift in Sources */,
 				D0B76F152484A95300CACD39 /* Solution20.swift in Sources */,
 				D00B170224BBFFD000675C1B /* Solution62.swift in Sources */,
 				D0316C9724AF429C00E7C0B5 /* Solution75.swift in Sources */,
@@ -528,6 +559,7 @@
 				D0084E4F2473E3B000C8D7CF /* SceneDelegate.swift in Sources */,
 				D0C0DF2324A878EB00CB2938 /* Solution41.swift in Sources */,
 				D0C0DF1B24A870B800CB2938 /* Solution29.swift in Sources */,
+				B658CFF224CAEDF1002B7878 /* Solution103.swift in Sources */,
 				D0C0DF1924A86F9200CB2938 /* Solution28.swift in Sources */,
 				D0084E89247B75DE00C8D7CF /* Solution6.swift in Sources */,
 				D0C0DF1D24A8788000CB2938 /* Solution34.swift in Sources */,
