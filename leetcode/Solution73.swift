@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Solution {
+class Solution73 {
     func setZeroes(_ matrix: inout [[Int]]) {
         var rows : Set<Int> = []
         var columns : Set<Int> = []
