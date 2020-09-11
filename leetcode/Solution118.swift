@@ -46,3 +46,54 @@ class Solution118 {
         return t[rowIndex]
     }
 }
+
+/**
+* Definition for a Node.
+*/
+public class Node {
+    public var val: Int
+    public var left: Node?
+    public var right: Node?
+    public var next: Node?
+    public init(_ val: Int) {
+        self.val = val
+        self.left = nil
+        self.right = nil
+        self.next = nil
+    }
+}
+
+
+class Solution116 {
+    func connect(_ root: Node?) -> Node? {
+        var list = [Node]()
+        var count = 0
+        if root != nil {
+            root?.next = nil
+            list.append(root!)
+            while count < list.count {
+                let listCount = list.count
+                for i in count ..< listCount {
+                    let tempNode = list[i]
+                    if tempNode.left != nil {
+                        list.append(tempNode.left!)
+                    }
+                    if tempNode.right != nil {
+                        list.append(tempNode.right!)
+                    }
+                }
+                
+                if listCount < list.count - 1 {
+                    for i in listCount ..< list.count - 1 {
+                        let tempNode = list[i]
+                        tempNode.next = list[i + 1]
+                    }
+                    list[list.count - 1].next = nil
+                }
+                
+                count = listCount
+            }
+        }
+        return root
+    }
+}

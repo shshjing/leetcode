@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B63629EB24E11FF60097021B /* Solution144.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63629EA24E11FF60097021B /* Solution144.swift */; };
+		B63629ED24E125E50097021B /* Solution145.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63629EC24E125E50097021B /* Solution145.swift */; };
+		B63629EF24E133C00097021B /* DLinkedNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63629EE24E133C00097021B /* DLinkedNode.swift */; };
+		B644506724E3E9C3002B01D7 /* Solution122.swift in Sources */ = {isa = PBXBuildFile; fileRef = B644506624E3E9C3002B01D7 /* Solution122.swift */; };
 		B658CFE624CAED0F002B7878 /* Solution129.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658CFE524CAED0F002B7878 /* Solution129.swift */; };
 		B658CFE824CAED66002B7878 /* Solution108.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658CFE724CAED66002B7878 /* Solution108.swift */; };
 		B658CFEA24CAED89002B7878 /* Solution107.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658CFE924CAED89002B7878 /* Solution107.swift */; };
@@ -23,6 +27,7 @@
 		B658D00024D7D9C7002B7878 /* Solution120.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658CFFF24D7D9C7002B7878 /* Solution120.swift */; };
 		B658D00224D7EB6D002B7878 /* Solution109.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658D00124D7EB6D002B7878 /* Solution109.swift */; };
 		B658D00424D7EF31002B7878 /* Solution110.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658D00324D7EF31002B7878 /* Solution110.swift */; };
+		B658D00624D93393002B7878 /* Solution114.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658D00524D93393002B7878 /* Solution114.swift */; };
 		D0084E4D2473E3B000C8D7CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0084E4C2473E3B000C8D7CF /* AppDelegate.swift */; };
 		D0084E4F2473E3B000C8D7CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0084E4E2473E3B000C8D7CF /* SceneDelegate.swift */; };
 		D0084E512473E3B000C8D7CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0084E502473E3B000C8D7CF /* ViewController.swift */; };
@@ -117,6 +122,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B63629EA24E11FF60097021B /* Solution144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution144.swift; sourceTree = "<group>"; };
+		B63629EC24E125E50097021B /* Solution145.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution145.swift; sourceTree = "<group>"; };
+		B63629EE24E133C00097021B /* DLinkedNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLinkedNode.swift; sourceTree = "<group>"; };
+		B644506624E3E9C3002B01D7 /* Solution122.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution122.swift; sourceTree = "<group>"; };
 		B658CFE524CAED0F002B7878 /* Solution129.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution129.swift; sourceTree = "<group>"; };
 		B658CFE724CAED66002B7878 /* Solution108.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution108.swift; sourceTree = "<group>"; };
 		B658CFE924CAED89002B7878 /* Solution107.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution107.swift; sourceTree = "<group>"; };
@@ -133,6 +142,7 @@
 		B658CFFF24D7D9C7002B7878 /* Solution120.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution120.swift; sourceTree = "<group>"; };
 		B658D00124D7EB6D002B7878 /* Solution109.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution109.swift; sourceTree = "<group>"; };
 		B658D00324D7EF31002B7878 /* Solution110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution110.swift; sourceTree = "<group>"; };
+		B658D00524D93393002B7878 /* Solution114.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution114.swift; sourceTree = "<group>"; };
 		D0084E492473E3B000C8D7CF /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0084E4C2473E3B000C8D7CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0084E4E2473E3B000C8D7CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -343,11 +353,15 @@
 				B658CFF724D40CBA002B7878 /* Solution111.swift */,
 				B658CFF524D408FE002B7878 /* Solution112.swift */,
 				B658CFF924D4260E002B7878 /* Solution113.swift */,
+				B658D00524D93393002B7878 /* Solution114.swift */,
 				B658CFFB24D7B4FC002B7878 /* Solution118.swift */,
 				B658CFFD24D7BD26002B7878 /* Solution119.swift */,
 				B658CFFF24D7D9C7002B7878 /* Solution120.swift */,
-				B658CFE524CAED0F002B7878 /* Solution129.swift */,
 				D0C0DF3624A87AC300CB2938 /* Solution121.swift */,
+				B644506624E3E9C3002B01D7 /* Solution122.swift */,
+				B658CFE524CAED0F002B7878 /* Solution129.swift */,
+				B63629EA24E11FF60097021B /* Solution144.swift */,
+				B63629EC24E125E50097021B /* Solution145.swift */,
 				D02D8B1C247F964600515DDC /* Solution165.swift */,
 				D02D8B1A247F6E9400515DDC /* Solution179.swift */,
 				D0316C8A24AC59E100E7C0B5 /* Solution718.swift */,
@@ -378,6 +392,7 @@
 			children = (
 				D0C0DF3D24A87B8B00CB2938 /* TreeNode.swift */,
 				D0C0DF3F24A87BB700CB2938 /* ListNode.swift */,
+				B63629EE24E133C00097021B /* DLinkedNode.swift */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -527,6 +542,7 @@
 				B658CFF024CAEDDD002B7878 /* Solution104.swift in Sources */,
 				D0C0DF3524A879EC00CB2938 /* Solution55.swift in Sources */,
 				D00B170824BC000300675C1B /* Solution67.swift in Sources */,
+				B63629EB24E11FF60097021B /* Solution144.swift in Sources */,
 				D0084E8D247E40C200C8D7CF /* Solution14.swift in Sources */,
 				D0084E8524768E1B00C8D7CF /* Solution9.swift in Sources */,
 				D0084E7D24761A0700C8D7CF /* Solution1.swift in Sources */,
@@ -536,6 +552,7 @@
 				D00B16FE24BBFF6300675C1B /* Solution94.swift in Sources */,
 				D0084E512473E3B000C8D7CF /* ViewController.swift in Sources */,
 				D00B171A24BC08E000675C1B /* Solution95.swift in Sources */,
+				B644506724E3E9C3002B01D7 /* Solution122.swift in Sources */,
 				D00B171624BC008B00675C1B /* Solution89.swift in Sources */,
 				D00B170624BBFFF200675C1B /* Solution66.swift in Sources */,
 				D0C0DF2D24A879EC00CB2938 /* Solution47.swift in Sources */,
@@ -548,6 +565,7 @@
 				D00B16FC24BBFF3500675C1B /* Solution90.swift in Sources */,
 				D0C0DF4224A8934400CB2938 /* Solution49.swift in Sources */,
 				D0316C8B24AC59E100E7C0B5 /* Solution718.swift in Sources */,
+				B658D00624D93393002B7878 /* Solution114.swift in Sources */,
 				B658CFF824D40CBA002B7878 /* Solution111.swift in Sources */,
 				D0C0DF4024A87BB700CB2938 /* ListNode.swift in Sources */,
 				D0C0DF1724A86F8100CB2938 /* Solution26.swift in Sources */,
@@ -586,6 +604,8 @@
 				D02D8B1B247F6E9400515DDC /* Solution179.swift in Sources */,
 				D023173824B41F2C006C92A0 /* Solution51.swift in Sources */,
 				D00B170E24BC003A00675C1B /* Solution77.swift in Sources */,
+				B63629ED24E125E50097021B /* Solution145.swift in Sources */,
+				B63629EF24E133C00097021B /* DLinkedNode.swift in Sources */,
 				D0316C8D24AD7A0F00E7C0B5 /* Solution61.swift in Sources */,
 				D0084E4F2473E3B000C8D7CF /* SceneDelegate.swift in Sources */,
 				D0C0DF2324A878EB00CB2938 /* Solution41.swift in Sources */,
