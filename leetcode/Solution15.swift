@@ -79,4 +79,34 @@ class Solution15 {
 
         return result;
     }
+    
+    func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
+        var result = [[Int]]()
+        if nums.count < 4 {
+            return result
+        }
+        let newnums = nums.sorted()
+        var dict = [String:[Int]]()
+        for i in 0 ..< newnums.count - 3 {
+            for j in i+1 ..< newnums.count - 2 {
+                for k in j+1 ..< newnums.count - 1 {
+                    for l in k+1 ..< newnums.count {
+                        if newnums[i] + newnums[j] + newnums[k] + newnums[l] == target {
+                            let key = "\(newnums[i])\(newnums[j])\(newnums[k])\(newnums[l])"
+                            var list = [Int]()
+                            list.append(newnums[i])
+                            list.append(newnums[j])
+                            list.append(newnums[k])
+                            list.append(newnums[l])
+                            dict[key] = list
+                        }
+                    }
+                }
+            }
+        }
+        for key in dict.keys {
+            result.append(dict[key]!)
+        }
+        return result
+    }
 }

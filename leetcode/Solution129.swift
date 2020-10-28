@@ -29,3 +29,81 @@ class Solution129 {
         }
     }
 }
+
+//173
+class BSTIterator {
+
+    var list = [TreeNode]()
+    var index = 0
+    init(_ root: TreeNode?) {
+        helper(root)
+    }
+    
+    func helper(_ root: TreeNode?) -> Void {
+        if root != nil {
+            helper(root?.left)
+            list.append(root!)
+            helper(root?.right)
+        }
+    }
+    
+    /** @return the next smallest number */
+    func next() -> Int {
+        if index < list.count {
+            let temp = index
+            index += 1
+            return list[temp].val
+        }
+        return -1
+    }
+    
+    /** @return whether we have a next smallest number */
+    func hasNext() -> Bool {
+        if index < list.count {
+            return true
+        }
+        return false
+    }
+}
+
+class SolutionSort {
+    func sortString(_ charString: inout [Character]) -> [Character] {
+        if charString.count == 0 {
+            return charString
+        }
+        var left = 0
+        var right = charString.count - 1
+        while left < right {
+            while charString[right] <= Character("Z") {
+                right -= 1
+            }
+            
+            while charString[left] >= Character("a") {
+                left += 1
+            }
+            
+            let temp = charString[right]
+            charString[right] = charString[left]
+            charString[left] = temp
+            right -= 1
+            left += 1
+        }
+        
+        return charString
+    }
+    
+    
+}
+
+extension Character
+{
+    func toInt() -> Int
+    {
+        var intFromCharacter:Int = 0
+        for scalar in String(self).unicodeScalars
+        {
+            intFromCharacter = Int(scalar.value)
+        }
+        return intFromCharacter
+    }
+}
