@@ -50,10 +50,60 @@ class Solution5 {
         var l = left
         var r = right
         let chars = [Character](s)
-        while l > 0 && r < s.count && chars[left] == chars[right] {
+        while l > -1 && r < s.count && chars[l] == chars[r] {
             l -= 1
             r += 1
         }
         return r - l - 1;
+    }
+    /*
+    class Solution {
+        public String longestPalindrome(String s) {
+            int n = s.length();
+            boolean[][] dp = new boolean[n][n];
+            String ans = "";
+            for (int l = 0; l < n; ++l) {
+                for (int i = 0; i + l < n; ++i) {
+                    int j = i + l;
+                    if (l == 0) {
+                        dp[i][j] = true;
+                    } else if (l == 1) {
+                        dp[i][j] = (s.charAt(i) == s.charAt(j));
+                    } else {
+                        dp[i][j] = (s.charAt(i) == s.charAt(j) && dp[i + 1][j - 1]);
+                    }
+                    if (dp[i][j] && l + 1 > ans.length()) {
+                        ans = s.substring(i, i + l + 1);
+                    }
+                }
+            }
+            return ans;
+        }
+    }
+ */
+    
+    func longestPalindromeDp(_ s: String) -> String {
+        let n = s.count
+        var dp = [[Bool]](repeating: [Bool](repeating: false, count: n), count: n)
+        var ans = ""
+        let chars = [Character](s)
+        for l in 0 ..< n {
+            for i in 0 ..< n - l {
+                let j = i + l
+                if l == 0 {
+                    dp[i][j] = true
+                }
+                else if l == 1 {
+                    dp[i][j] = chars[i] == chars[j]
+                }
+                else {
+                    dp[i][j] = chars[i] == chars[j] && dp[i + 1][j - 1]
+                }
+                if dp[i][j] && l + 1 > ans.count {
+                    ans = String(chars[i ... i + l])
+                }
+            }
+        }
+        return ans
     }
 }
